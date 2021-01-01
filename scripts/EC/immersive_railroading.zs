@@ -88,7 +88,7 @@ recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, aug
 # Coupler  #
 ############
 
-recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 8})*4,
+recipes.addShaped([<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 8})*4,<immersiverailroading:item_hook>],
 [[null,<tfc:metal/double_sheet/steel>,null],              
   [<immersiveengineering:metal_decoration0:3>,<immersiverailroading:item_hook>,<immersiveengineering:wirecoil:5>],               
   [<tfc:metal/sheet/steel>,<immersiveengineering:metal_decoration0:4>,<tfc:metal/sheet/steel>]]);
